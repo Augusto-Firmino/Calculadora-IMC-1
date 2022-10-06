@@ -1,0 +1,58 @@
+body {
+    background-color: aliceblue;
+}
+
+h2 {
+    color: #D4D4D2;
+}
+
+h1 {
+    margin-block-start: 0em;
+    color: white;
+}
+
+.input_area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    height: 1.5em;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 2em;
+    border-radius: 5px;
+}
+
+.container {
+    background-color: #036159;
+    display: inline-flex;
+    padding: 1.7em;
+    border-radius: 0.5em;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+button {
+    height: 3em;
+    width: 100%;
+    background-color: #e08402;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
